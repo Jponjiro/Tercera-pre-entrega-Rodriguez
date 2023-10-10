@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insertar Datos</title>
+</head>
+<body>
+    <h1>Insertar Datos</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        {{ autor_form.as_p }}
+        <input type="submit" name="autor" value="Guardar Autor">
+    </form>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ libro_form.as_p }}
+        <input type="submit" name="libro" value="Guardar Libro">
+    </form>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ ejemplar_form.as_p }}
+        <input type="submit" name="ejemplar" value="Guardar Ejemplar">
+    </form>
+</body>
+</html>
