@@ -25,8 +25,6 @@ Para utilizar este proyecto en tu entorno local, sigue estos pasos:
 
    ```shell
    git clone https://github.com/Jponjiro/Tercera-pre-entrega-Rodriguez.git
-
-
 2. cd pre-entrega-rodriguez
 3. npm install
 4. npm start
